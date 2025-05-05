@@ -1,0 +1,304 @@
+ /* 000000 - black;
+FFFFFF - white;
+##7fb6cca1 - main;
+ 017784 - linkedin blue;
+ 1E1E1E- black;
+ F44336 - red*/
+ /* body {
+   width: 98%;
+
+ } */
+
+ p {
+   margin: 0px;
+   padding: 0px;
+ }
+
+ .heading {
+   margin: auto;
+   padding: 0px;
+   width: fit-content;
+   text-decoration: underline;
+ }
+
+ .navbar {
+   background: #7fb6cca1;
+ }
+
+
+ #heroSection {
+   width: 100%;
+   height: 100vh;
+   background: #7fb6cca1;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+ }
+
+
+
+ .heroSectionContent {
+
+   width: fit-content;
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+ }
+
+
+
+ .myImageCircle {
+   width: fit-content;
+   height: 150px;
+   border-radius: 50%;
+   border: 3px solid white;
+ }
+
+ /* 
+use comforta font style */
+ .text {
+   font-size: larger;
+   font-weight: 600;
+ }
+
+ /* about me section */
+ #aboutSection {
+   display: flex;
+   justify-content: space-between;
+   margin: auto;
+   height: 200px;
+   width: 80%;
+   box-shadow: 0px 4px 4px rgba(145, 137, 137, 0.25);
+ }
+
+ .aboutp2 {
+   width: 80%;
+   margin: auto;
+
+ }
+
+ .about {
+   width: 80%;
+   text-align: center;
+ }
+
+ /* skills section  */
+ .skillsDiv {
+   /* border: solid 2px black; */
+   /* margin: 50px; */
+   display: flex;
+   flex-direction: column;
+   padding-right: 10px;
+   text-align: center;
+   align-items: center;
+   justify-content: center;
+   min-width: 85%;
+ }
+
+ .skills {
+   display: flex;
+   min-width: 85%;
+   text-align: center;
+   /* justify-content: center; */
+   /* border: 2px solid black; */
+   border-radius: 9px;
+   margin: 15px 0px;
+   box-shadow: 4px 4px 4px rgba(145, 137, 137, 0.25);
+ }
+
+ .SkillLevel {
+   /* border: solid 1px black; */
+   background: #7fb6cca1;
+   border-radius: 4px;
+   padding: 16px;
+   min-width: 50%;
+ }
+
+ .skillsListDiv {
+   /* border: solid 2px gray; */
+   min-width: 40%;
+   padding: 10px;
+   /* display: flex; */
+   /* flex-direction: column; */
+ }
+
+ .skillList {
+   list-style-type: none;
+   display: flex;
+   flex-wrap: wrap;
+   gap: 5px;
+   font-size: 18px;
+   /* border: solid 2px gray; */
+ }
+
+
+
+ /* project Section */
+ #ProjectSkills {
+   margin: 10px;
+ }
+
+ .projectDiv {
+   margin: 5px;
+   /* border: solid 3px black; */
+   min-height: 100vh;
+   display: flex;
+   flex-direction: column;
+   gap: 3px;
+ }
+
+ .projectOne,
+ .projectTwo,
+ .projectThree {
+   border-radius: 5px;
+   width: 90%;
+   height: 30%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   /* text-align: center; */
+   margin: auto;
+   box-shadow: 4px 4px 14px rgba(145, 137, 137, 0.25)
+ }
+
+ .projectInfo {
+   width: 75%
+ }
+
+ .projectImg {
+
+   width: 25%;
+ }
+
+ .projectPic {
+   padding: 10px;
+   border-radius: 16px;
+   width: 60%;
+ }
+
+
+
+ /* Contact me */
+ #ContactSection {
+   /* border: 1px solid black; */
+   width: 88%;
+   padding: 10px;
+   height: 120px;
+   border-radius: 5px;
+   margin: auto;
+   padding-top: 10px;
+   box-shadow: 4px 4px 14px rgba(145, 137, 137, 0.25);
+ }
+
+ .ContactDiv {
+   display: flex;
+   justify-content: space-between;
+   margin-top: 10px;
+   padding-top: 10px;
+   margin: auto;
+   width: 100%;
+   gap: 10px;
+   height: 50px;
+ }
+
+ .MailPic {
+   border-radius: 5px;
+   margin-left: 5px;
+ }
+
+ .Mail {
+   background-color: #F44336;
+   width: 50%;
+   color: white;
+   display: flex;
+   gap: 10px;
+   height: 50px;
+   justify-content: center;
+   align-items: center;
+   cursor: pointer;
+   border-radius: 10px;
+ }
+
+
+ .Linkedin {
+   background-color: #017784;
+   border-radius: 10px;
+   width: 50%;
+   height: 50px;
+   color: white;
+   display: flex;
+   gap: 10px;
+   justify-content: center;
+   align-items: center;
+   cursor: pointer;
+ }
+
+ footer {
+   background-color: black;
+   color: white;
+   padding: 20px;
+   margin-top: 40px;
+   justify-content: center;
+   text-align: center;
+ }
+
+ /* media section */
+ @media only screen and (max-width: 768px) {
+   body {
+     max-width: 490px;
+   }
+
+   .myImageCircle {
+     width: fit-content;
+     height: 200px;
+   }
+
+   #aboutSection {
+     min-height: 500px
+   }
+
+   #ContactSection {
+     min-height: 200px;
+   }
+
+   .ContactDiv {
+     width: 100%;
+     display: block;
+
+   }
+
+   .skillText {
+     margin-top: 40px;
+     padding: 0px;
+     margin-bottom: 0px;
+   }
+
+   .skillOne {
+     min-width: 100%;
+   }
+
+   .Mail {
+     /* margin: 30px; */
+
+     padding: 0px;
+     margin-bottom: 30px;
+     width: 100%;
+   }
+
+   .Linkedin {
+     width: 100%;
+   }
+
+   .projectDiv {
+     padding: 4px;
+     gap: 30px;
+   }
+
+   .projectImg {
+     min-width: 40%;
+   }
+
+
+
+ }
