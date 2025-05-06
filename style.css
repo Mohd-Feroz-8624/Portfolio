@@ -75,6 +75,7 @@ use comforta font style */
  .aboutp2 {
    width: 80%;
    margin: auto;
+  min-height:200px;
 
  }
 
